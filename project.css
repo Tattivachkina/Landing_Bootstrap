@@ -1,0 +1,294 @@
+/*#region nav-link*/
+.nav-link {
+    color: white;
+    font-family: Roboto;
+}
+
+.nav-link.active {
+    color: white !important;
+}
+/*#endregion nav-link*/
+
+.general {
+    padding: 100px;
+    position: relative;
+    font-family: Roboto;
+}
+/*   
+.description .title {
+    width: 50%;
+    flex: 1;
+    position: absolute;
+    color: white;
+    justify-content: left;
+    font-size: 29px;
+    line-height: 39px;
+    top: 100%;
+    text-align: left;
+}
+
+.description {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: white;
+    text-align: left;
+} */
+
+/* .image {
+    background-size: cover;
+} */
+
+.container .row .col_picture {
+    position: relative; 
+}
+
+.description {
+    padding: 20vh 0px 0px 10vw;
+
+    width: 50%;
+    /* height: 100%; */
+    /* font-size: 24px; */
+    top: 0%;
+    position: absolute;
+    color: white;
+    justify-content: left;
+    /* font-size: 29px;
+    line-height: 39px;
+    text-align: left; */
+    padding-top: 18%;
+}   
+.container .row .col_title {
+    width: 50%;
+    flex: 1;
+    font-family: Roboto;
+    font-size:   200%;
+    font-weight: bold;
+    line-height: 100%;
+    top: 50%;
+    text-align: left;
+    letter-spacing: 0em;
+    padding-bottom: 6%;
+}
+
+.container .row .col_desription {
+    width: 40%;
+    flex: 1;
+    font-family: Roboto;
+    justify-content: left;
+    font-size:   120%;
+    line-height: 100%;
+    top: 50%;
+    text-align: left;
+    letter-spacing: 0em;
+    padding-bottom: 4%;
+}
+ 
+.description .description_title {
+    /* line-height: 1.5; */
+    width: 100%;
+    flex: 1;
+    /* position: absolute; */
+    /* color: green; */
+    /* justify-content: left; */
+    /* font-size: 5vh; */
+    font-size:   200%;
+    line-height: 100%;
+    top: 100%;
+    text-align: left;
+    letter-spacing: 0em;
+
+    padding-bottom: 25%;
+}
+
+.description .description_text {
+    /* line-height: 1.5; */
+    width: 70%;
+    flex: 1;
+    /* position: absolute; */
+    /* color: green; */
+    justify-content: left;
+    font-size:   140%;
+    line-height: 100%;
+    top: 100%;
+    text-align: left;
+    letter-spacing: 0em;
+    padding-bottom: 20%;
+}
+
+.description_button .btn {
+    font-family: Roboto;
+    border-radius: 26px;
+    background-color: #54A757;
+}
+
+.posibilities .btn {
+    font-family: Roboto;
+    border-radius: 26px;
+    background-color: #54A757;
+}
+
+/* .posibilities .d-inline-block{
+    right:-10%;
+} */
+
+.posibilities{
+    padding-bottom: 10%;
+    font-family: Roboto;
+}
+
+.posibilities .text_posibilities{
+    text-align: center;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight:bold;
+    padding-top: 7%;
+    padding-bottom: 3%;
+    color: #434449;
+
+}
+
+.card-body{
+    background-color: #F9F9F9;
+    border-radius: 20px;
+}
+
+ .card-title{
+    text-align: left;
+    color: #29AAE3;
+    font-family: Roboto;
+    padding-bottom: 5%;
+ }
+
+ .card-title_desc{
+    text-align: left;
+    font-family: Roboto;
+    font-weight:bold;
+    font-family: Roboto;
+    color: #434449;
+   
+ }
+
+ .card-text{
+    font-family: Roboto;
+    text-align: left;
+    padding-bottom: 5%;
+    /* padding-left: 20px; */
+    color: #434449;
+ }
+
+ .card-text::marker {
+	color: #29AAE3;
+	font-size: 18px;
+}
+
+  
+ 
+
+.time_management {
+    background-color: #F5F6F6;
+    padding-bottom: 10%;
+    font-family: Roboto;
+}
+
+.time_management .text_time_managment{
+    text-align: center;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight:bold;
+    padding-top: 7%;
+    padding-bottom: 3%;
+    color: #29AAE3;
+}
+
+.time_desc{
+    /* padding: 0vh 0% 5% 5vw; */
+    padding-top: 10%;
+    width: 100%;
+    padding-bottom: 5%;
+    text-align: left;
+    font-family: Roboto;
+}
+
+.btn-primary{
+    font-family: Roboto;
+    background-color: #29AAE3;;
+    width: 60%;
+    /* color: #29AAE3; */
+}
+
+.optimization {
+    background-color: #FFFFFF;
+    padding-bottom: 10%;
+}
+
+.optimization .text_opt{
+    text-align: center;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight:bold;
+    padding-top: 7%;
+    padding-bottom: 3%;
+    color: #9033F9;
+}
+
+.time_optim{
+    padding-top: 10%;
+    width: 100%;
+    padding-bottom: 5%;
+    text-align: left;
+    font-family: Roboto;
+}
+
+.btn-dark{
+    font-family: Roboto;
+    background-color: #9033F9;
+    width: 70%;
+}
+
+
+.management {
+    background-color: #F5F6F6;
+    padding-bottom: 10%;
+}
+
+.management .text_managment{
+    text-align: center;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight:bold;
+    padding-top: 7%;
+    padding-bottom: 3%;
+    color: #FF5966;
+}
+
+.management_desc{
+    /* padding: 0vh 0% 5% 5vw; */
+    padding-top: 10%;
+    width: 100%;
+    padding-bottom: 5%;
+    text-align: left;
+    font-family: Roboto;
+}
+
+.btn-danger{
+    font-family: Roboto;
+    background-color: #FF5966;;
+    width: 60%;
+    /* color: #29AAE3; */
+}
+.down{
+    background-color: #53A8DD;
+    font-family: Roboto;
+    padding-bottom: 5%;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 5%;
+}
+.d_text{
+    padding-top: 5%;
+}
+.d_text_desc{
+    padding-top: 2%;
+}
